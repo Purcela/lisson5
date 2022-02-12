@@ -12,99 +12,166 @@
 
 
 .line1-index { width: 1088px; 
-	        margin: 0 auto;  }
+	       margin: 0 auto;  }
 
 .h5-line1 { margin-top: 82px;
             width: 90px;
             color: #5863F8;
-            font-size: 14px; }
+            font-size: 14px;
+            font-family: 'Poppins Bold'; }
 
 .h2-line1 { margin-top: 1px;
             font-size: 42px;
             width: 422px;
-            color: #000000; }
+            color: #000000;
+            font-family: 'Poppins ExtraBold'; }
+
+.line1-1-index { width: 1088px;
+                 height: 190px;
+                 margin-top: 54px; }
 
 .box1 { width: 536px; 
-        background-color: #F8F8F8;
-        margin-top: 54px; }
+        background-color: #F8F8F8; }
 
 .box1-img,
 .box2-img { width: 168px;
-	     vertical-align: middle;
-            height: 190px; }
+	    vertical-align: middle; }
 
 .box1-h4,
 .box2-h4 { width: 39px;
            color: #5863F8;
            font-size: 14px;
            margin-left: 16px;
-           margin-top: 37px; }
+           margin-top: 37px;
+           font-family: 'Poppins Bold'; }
 
 .box1-h3,
 .box2-h3 { width: 168px;
-	    margin-top: 1px;
+	   margin-top: 1px;
            margin-left: 16px;
            font-size: 18px;
-           color: #000000; }
+           color: #000000;
+           font-family: 'Poppins SemiBold'; }
 
 .box1-p,
 .box2-p { width: 260px;
           margin-left: 16px;
           margin-top: 11px;
           font-size: 14px;
-          color: #B1B1B1; }
+          color: #B1B1B1;
+          font-family: 'Poppins Medium'; }
 
 .box2 { width: 536px; 
         background-color: #F8F8F8;
-        margin-top: 54px;
         margin-left: 16px; }
 
+.line1-2-index { width: 1088px;
+                 height: 190px;
+                 margin-top: 16px; }
+
 .box3 { width: 536px; 
-        background-color: #F8F8F8;
-        margin-top: 16px; }
+        background-color: #F8F8F8; }
 
 .box4 { width: 536px; 
         background-color: #F8F8F8;
-        margin-top: 16px;
         margin-left: 16px; }
 
 .line2-index { width: 1088px; 
-               margin: 0 auto; }
+               margin: 90px auto 0 auto; }
 
-.h5-line2 { margin-top: 90px;
-            width: 36px;
+.h5-line2 { width: 36px;
             color: #5863F8;
-            font-size: 14px; }
+            font-size: 14px;
+            font-family: 'Poppins Bold'; }
 
 .h2-line2 { font-size: 42px;
             width: 404px;
-            color: #000000; }
+            color: #000000;
+            font-family: 'Poppins ExtraBold'; }
 
-.box5-img { margin-top: 54px;
-            width: 352px;
-            height: 212px; }
+.line2-1-index,
+.line2-2-index { width: 1088px;
+                 height: 360px;
+                 margin: 54px auto 0 auto; } 
 
-.box5-text { background-color: #F8F8F8;
-             width: 352px;
-             height: 148px; }
+.line2-2-index {margin: 16px auto 87px auto; }
 
-.box5-h4 { width: 104px;
-           color: #5863F8;
-           font-size: 14px;
-           margin:0 auto ;
-           margin-top: 23px; }
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10  { width: 352px; }
 
-.box5-h3 { width: 194px;
-           color: #000000;
-           font-size: 18px;
-           margin:0 auto ;
-           margin-top: 6px; }
+.box6,
+.box7,
+.box9,
+.box10  { margin-left: 16px; }
 
-.box5-p { width: 260px;
+.box5-img,
+.box6-img,
+.box7-img,
+.box8-img,
+.box9-img,
+.box10-img { width: 352px;
+             height: 212px; }
+
+.box5-text,
+.box6-text,
+.box7-text,
+.box8-text,
+.box9-text,
+.box10-text { background-color: #F8F8F8;
+              width: 352px;
+              height: 148px; }
+
+.box5-h4,
+.box6-h4,
+.box7-h4,
+.box8-h4,
+.box9-h4,
+.box10-h4 { width: 104px;
+            color: #5863F8;
+            font-size: 14px;
+            margin:0 auto ;
+            margin-top: 23px;
+            font-family: 'Poppins Bold'; }
+
+.box6-h4,
+.box9-h4 { width: 64px; }
+
+.box7-h4,
+.box8-h4 { width: 48px; }
+
+.box5-h3,
+.box6-h3,
+.box7-h3,
+.box8-h3,
+.box9-h3,
+.box10-h3 { width: 194px;
+            color: #000000;
+            font-size: 18px;
+            margin:0 auto ;
+            margin-top: 6px;
+            font-family: 'Poppins SemiBold'; }
+
+.box6-h3,
+.box9-h3 { width: 184px; }
+
+.box7-h3,
+.box8-h3 { width: 148px; }
+
+.box5-p,
+.box6-p,
+.box7-p,
+.box8-p,
+.box9-p,
+.box10-p { width: 260px;
           color: #B1B1B1;
           font-size: 14px;
           margin:0 auto ;
-          margin-top: 11px; }
+          margin-top: 11px;
+          font-family: 'Poppins Medium'; }
 
 
 
